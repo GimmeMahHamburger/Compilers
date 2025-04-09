@@ -81,6 +81,12 @@ Defined below.
 return **value\***
 
 Return control and scope to enclosing scope. Provides a value to the enclosing scope.
+
+Adjacent memory accessor: **variable**\[ **value** \]
+
+Standard array accessor. It will return the data (cast to the assumed type) at location &variable plus sizeof(typeof(variable)) multiplied by value.
+
+sizeof() and typeof() are not implemented, they're just for shorthand.
 ### Built-in IO:
 _**string-able expression** write
 
