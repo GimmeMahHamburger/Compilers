@@ -4,21 +4,17 @@ int x=10
 int y=3
 float f=5.42221
 
--f write
--y write
--x+y write
+_f write
+_y write
+_x+y write
 
 char c = 'c'
 char u = 'u'
 
--c write
--u write
+_c write
+_u write
 
 ~~~
 expected output:
-10
-3
-13
-c
-u
+10313cu
 ~~~
