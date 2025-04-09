@@ -77,6 +77,10 @@ Used as they are in c-style languages.
 write, read
 
 Defined below.
+
+return **value\***
+
+Return control and scope to enclosing scope. Provides a value to the enclosing scope.
 ### Built-in IO:
 -**string-able expression** write
 
