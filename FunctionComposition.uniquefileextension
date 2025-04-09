@@ -1,0 +1,36 @@
+~One function's output treated as another function's input
+
+int <- int a, int b: DoSomething{
+	return a*b -b
+}
+
+int <- int input1, int input2 :DoSomethingElse{
+	return input1-2*input2
+}
+
+~Name what's being worked with
+
+int var1 = 1
+int var2 = 4
+int var3 = 5
+
+~Normal result with pure operators
+
+int result1 = var1*var2-var2
+int result1 = result1-2*var3
+
+~Result with functions
+
+int result2 = __var1 _var2 DoSomething _var3 DoSomethingElse 
+
+~Note the double '_' in front of var1
+
+_result1 write
+_'\n' write
+_result2 write
+_'\n' write
+
+~~~
+Expected output:
+-10
+-10
