@@ -20,7 +20,7 @@ To help with deciphering things.
 Function definition returns a reference to the function.
 
 ## Function call
-"-" delineates a parameter. Function calls will consume parameters from right to left.
+"_" delineates a parameter. Function calls will consume parameters from right to left.
 
 I recently passed a Mobile Dev class and have developed a hatred of nested functions. Every time I opened up Android Studio, I was faced with more brackets and braces than I've ever had in my mouth, and I've been through orthodontics *twice.*
 I want to figure out how viable it is to use no parentheses for function calls.
@@ -54,11 +54,11 @@ Not conflict with any reserved or predefined identifiers.
 ## Assignment-mandated extra features
 
 ### Reserved words
-for: formatted as -**reference to function** -**reference to counter** -**reference to condition** -**increment** for
+for: formatted as _**reference to function** _**reference to counter** _**reference to condition** _**increment** for
 
 Each iteration: "function" is called, "counter + increment" is called, then if "condition" is true, retry
 
-if: formatted as -**reference to function** -**reference to condition** if
+if: formatted as _**reference to function** _**reference to condition** if
 
 else: shorthand for "if condition of previous if returned false"
 
@@ -82,7 +82,7 @@ return **value\***
 
 Return control and scope to enclosing scope. Provides a value to the enclosing scope.
 ### Built-in IO:
--**string-able expression** write
+_**string-able expression** write
 
 Writes an expression to the standard output. Accepts ints, c-strings, floats, and chars.
 
