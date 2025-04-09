@@ -80,7 +80,7 @@ Defined below.
 ### Built-in IO:
 -**string-able expression** write
 
-Writes an expression to the standard output with a trailing newline.
+Writes an expression to the standard output. Accepts ints, c-strings, floats, and chars.
 
 read
 
@@ -100,6 +100,8 @@ I will support ints and floats. ints will default to signed 64bit integers.
 I will support a single-character datatype, of which strings will be artificially composed. I am tempted to only support ints and force them to be interpreted as chars by whatever procedure prints them, but I know that will be both difficult and unwieldly.
 
 Void will be supported as a pseudo-type of no value.
+
+c-strings will be supported, hopefully under a different moniker. They will be fixed length, null-terminated, adjacent lengths of chars.
 
 Literals: 1, 1.0, 'a'
 
