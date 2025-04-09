@@ -42,10 +42,18 @@ Otherwise, again, no need to innovate. If I try to be "clever" with something as
 ~ = Single line comment, goes until \\n
 
 \~\~\~ = Multi-line comment, goes until \~\~\~
+## Identifiers
+Identifiers for user-defined variables, functions, and classes must satisfy the following:
+
+Begin with a letter of the alphabet,
+
+Consist of alphanumeric characters,
+
+Not conflict with any reserved or predefined identifiers.
 
 ## Assignment-mandated extra features
 
-## Reserved words
+### Reserved words
 for: formatted as -**reference to function** -**reference to counter** -**reference to condition** -**increment** for
 
 Each iteration: "function" is called, "counter + increment" is called, then if "condition" is true, retry
@@ -65,6 +73,10 @@ One-argument operators: !, $, &
 (not, dereference, address of)
 
 Used as they are in c-style languages.
+
+write, read
+
+Defined below.
 ### Built-in IO:
 -**string-able expression** write
 
