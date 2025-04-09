@@ -17,6 +17,8 @@ To help with deciphering things.
 
 ...Any number of parameters may be specified. Exactly one return type is specified.
 
+Function definition returns a reference to the function.
+
 ## Function call
 "-" delineates a parameter. Function calls will consume parameters from right to left.
 
@@ -26,6 +28,8 @@ I want to figure out how viable it is to use no parentheses for function calls.
 **var type** VariableName
 
 **var type** VariableName = **value**
+
+Variable definition returns a reference to the variable.
 
 As simple as possible. There is no need to innovate.
 ## Classes
@@ -41,6 +45,26 @@ Otherwise, again, no need to innovate. If I try to be "clever" with something as
 
 ## Assignment-mandated extra features
 
+## Reserved words
+for: formatted as -**reference to function** -**reference to counter** -**reference to condition** -**increment** for
+
+Each iteration: "function" is called, "counter + increment" is called, then if "condition" is true, retry
+
+if: formatted as -**reference to function** -**reference to condition** if
+
+else: shorthand for "if condition of previous if returned false"
+
+Two-argument operators: +, -, *, /, %, <, >, ==, <=, >=, | &&
+
+(add, subtract, mutiply, divide \[int and float\], modulo, less than, greater than, equal to, less than or equal to, greater than or equal to, or, and)
+
+Used as they are in c-style languages.
+
+One-argument operators: !, $, & 
+
+(not, dereference, address of)
+
+Used as they are in c-style languages.
 ### Built-in IO:
 -**string-able expression** write
 
