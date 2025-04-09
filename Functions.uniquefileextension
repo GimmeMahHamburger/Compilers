@@ -1,0 +1,37 @@
+~Functions, their definitions, and their use
+
+ void <- :PrintThings{
+	_'P' write
+	_'a' write
+	_'s' write
+	_'c' write
+	_'a' write
+	_'l' write
+	_'\n' write
+	~no return necessary
+}
+
+int <- int a, int b: Add{
+	return a+b
+}
+
+char <- int a, float b, char c:DisregardParameters{
+	int a = 69
+	int b = a+420
+	return 'X'
+}
+
+PrintThings ~no parameters, no problem
+
+int z = _1 _-2 Add
+
+_z write
+
+char c = _1 _4.0 _'r' DisregardParameters
+
+_c write
+
+~~~
+Expected output:
+Pascal
+-1X
