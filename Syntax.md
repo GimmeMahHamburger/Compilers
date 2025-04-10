@@ -92,9 +92,9 @@ _**string-able expression** write
 
 Writes an expression to the standard output. Accepts ints, c-strings, floats, and chars.
 
-read
+_**return location** _**read until** read
 
-Reads from standard input until newline and returns all characters.
+Reads from standard input until newline or "read until" and places all characters in memory beginning at "return location." Highly memory unsafe because I'm lazy.
 ### Valid characters
 Identifiers may consist of, in any order:
 
