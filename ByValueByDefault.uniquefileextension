@@ -1,0 +1,43 @@
+~Demonstrates that the default behavior of function parameters is that of pass-by-value
+
+void <- int input : TheFunction{
+	input = 4
+	return input
+}
+
+void <- int $ input : TheOtherFunction{
+	input = 5 ~changes the address. not cool. does not work
+	return input
+}
+
+void <- int $ input : TheThirdFunction{
+	$input = 6
+	return $input 
+}
+
+int example1 = 1
+int example2 = 2 
+int example3 = 3
+
+__example1 TheFunction write
+_'\n' write
+_example1 write
+_'\n' write
+__example2 TheFunction write
+_'\n' write
+_example1 write
+_'\n' write
+__&example3 TheFunction write
+_'\n' write
+_example1 write
+_'\n' write
+
+~~~expected output
+1
+1
+2
+2
+6
+6
+
+~~~
