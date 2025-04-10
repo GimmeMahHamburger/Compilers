@@ -37,6 +37,8 @@ class **class name** { body }
 
 Classes can be instantiated from nothing, but may contain garbage data. Default "constructors" are the user's problem.
 
+Class data and methods are accessed with '.' I'll change it if it's deemed too similar to the mountains of languages which have laid claim to the notation.
+
 Otherwise, again, no need to innovate. If I try to be "clever" with something as primitive as a struct I will just look silly.
 ## Comments
 ~ = Single line comment, goes until \\n
