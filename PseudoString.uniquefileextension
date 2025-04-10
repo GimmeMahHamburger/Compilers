@@ -1,0 +1,22 @@
+~A demonstration of c-string-like segments of characters. I don't know how else I'd store strings without some more complicated user-defined (or built-in) structs.
+
+char $ example = 'example'
+
+_example write
+_example[3] write
+_'\n' write
+
+example[4] = '5'
+_example write
+_'\n' write
+
+example[5] = void
+_example write
+_'\n' write
+
+~~~
+Expected output:
+examplem
+exam5le
+exam5
+~~~
