@@ -1,0 +1,22 @@
+~Static arrays
+
+int $ array1 = {1, 2, 3, 0, 99} ~standard definition
+int $ array2 = {} ~either throws an error or just has no data
+
+_array1[2]+array1[1] write
+_'\n' write
+
+array1[2]=70
+
+_array1[2]+array1[1] write
+_'\n' write
+
+_array1[40] write ~undefined behavior
+_array2[0] write ~undefined behavior
+
+~~~
+Expected output:
+5
+72
+undefined behavior for subsequent writes
+~~~
