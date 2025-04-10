@@ -43,7 +43,7 @@ Otherwise, again, no need to innovate. If I try to be "clever" with something as
 ## Comments
 ~ = Single line comment, goes until \\n
 
-\~\~\~ = Multi-line comment, goes until \~\~\~
+\~\~\~ = Multi-line comment, goes until \~\~\~ or EOF
 ## Identifiers
 Identifiers for user-defined variables, functions, and classes must satisfy the following:
 
@@ -64,7 +64,7 @@ if: formatted as _**reference to function** _**reference to condition** if
 
 else: shorthand for "if condition of previous if returned false"
 
-Two-argument operators: +, -, *, /, %, <, >, ==, <=, >=, | &&
+Two-argument operators: +, -, *, /, %, <, >, ==, <=, >=, || &&
 
 (add, subtract, mutiply, divide \[int and float\], modulo, less than, greater than, equal to, less than or equal to, greater than or equal to, or, and)
 
