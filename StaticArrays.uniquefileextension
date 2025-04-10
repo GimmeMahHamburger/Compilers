@@ -2,6 +2,7 @@
 
 int $ array1 = {1, 2, 3, 0, 99} ~standard definition
 int $ array2 = {} ~either throws an error or just has no data
+int $ array2[40] ~initialized to empty data but still readable/writable
 
 _array1[2]+array1[1] write
 _'\n' write
