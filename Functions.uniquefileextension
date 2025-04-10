@@ -16,8 +16,8 @@ int <- int a, int b: Add{
 }
 
 char <- int a, float b, char c:DisregardParameters{
-	int a = 69
-	int b = a+420
+	int a1 = 69
+	int b1 = a+420
 	return 'X'
 }
 
