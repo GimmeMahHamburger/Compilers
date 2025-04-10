@@ -20,3 +20,11 @@ void <- :PseudoMain{
 	_oi.two write
 	_'\n' write
 }
+
+PseudoMain
+~~~expected output
+hello
+world
+no
+way
+~~~
