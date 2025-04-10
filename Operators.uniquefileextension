@@ -1,0 +1,21 @@
+~Operators. All of them.
+
+int i=1
+int j=2
+i=i+j ~3
+j=j-i ~-1
+int k=i*j ~ -3
+i=k/j ~1
+int l = 31%3 ~1
+bool greater = l<i ~true
+bool less = k>j ~false
+bool equal = greater==less ~false
+equal = equal == !less ~true
+bool composite = less && ~equal || equal && greater ~ true
+
+
+_composite write
+
+~~~expected output
+1
+~~~
