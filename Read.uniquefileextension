@@ -1,0 +1,27 @@
+~ Demonstrates reading capability of console
+
+int maxSize=30
+
+char $ input[maxSize+1]
+char $ msg = 'hello. plz write a thingy. no longer than thirty characters plz.'
+
+_msg write
+_&input _maxSize read
+_'\n' write
+_input write
+_'\n' write
+
+char $ input2[20]
+char $ msg2 = 'I am comfortable losing points for memory-unsafe operations but I'm not comfy losing points because it looks like I don't know about them'
+_'\n' write
+_input _27 read
+_input2[22] write
+
+~~~
+Expected output:
+hello. plz write a thingy. no longer than thirty characters plz.>>>hey there nerds
+hey there nerds
+I am comfortable losing points for memory-unsafe operations but I'm not comfy losing points because it looks like I don't know about them
+>>>wwaaaaahhhaaahahahahahaaaaaaaaaaaaaaaaaaaaaaa
+a
+~~~
