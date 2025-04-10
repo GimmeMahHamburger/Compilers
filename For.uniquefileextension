@@ -1,0 +1,48 @@
+~for loops
+
+void <- :DoStuff{
+	_'o' write
+	_'\n' write
+}
+_int count=0 _DoStuff _count<4 _1 for  ~'int count=0' returns itself as a reference so the anonymous declaration is kept. count is valid for the scope of the loop and nowhere else.
+
+void <- int input: DoOtherStuff{
+	_input write
+	_'\n' write
+}
+
+int count = 0
+_count __count DoOtherStuff _count>-3 _-1 for
+
+void <- :Nested{
+	int i = 0
+	void <- :FullyNested{
+		_'noooo' write
+		_'\n' write
+	}
+	_i _FullyNested _i<3 _1 for
+	_'hooray' write
+}
+
+_count __count Nested _count<0 _1 for
+
+
+
+~~~expected output
+o
+o
+o
+o
+0
+-1
+-2
+noooo
+noooo
+hooray
+noooo
+noooo
+hooray
+noooo
+noooo
+hooray
+~~~
