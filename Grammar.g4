@@ -1,0 +1,45 @@
+grammar PascalIINoRelation;
+
+UNDERSCORE: '_';
+PLUS: '+';
+MINUS: '-';
+DIVIDE: '/';
+STAR: '*';
+MODULO: '%';
+SIGNATURE: '<-';
+LESSTHAN: '<';
+GREATERTHAN: '>';
+EQUAL: '=';
+OR: '|';
+AMPERSAND: '&';
+NOT: '!';
+MULTICOMMENT: '~~~';
+COMMENT: '~';
+REFERENCE: '$';
+FLOAT:[0-9]+\.[0-9]+;
+INTEGER: [0-9]+;
+IDENTIFIER: [a-zA-Z_][a-zA-Z_0-9];
+NEWLINE: '\n';
+WHITESPACE: '[\t\n\r]';
+LBRACKET: '[';
+RBRACKET: ']';
+LCURLY: '{';
+RCURLY: '}';
+ACCESSOR: '.';
+ESCAPE: '\';
+COLON: ':';
+SINGLEQUOTE: '\'';
+DOUBLEQUOTE: '\"';
+
+FOR: 'for';
+WRITE: 'write';
+READ: 'read';
+IF: 'if';
+RETURN: 'return';
+CLASSID: 'class';
+CHARACTERID: 'char';
+INTID: 'int';
+VOID: 'void';
+FLOATID: 'float';
+BOOLEANID: 'bool';
+
