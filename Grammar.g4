@@ -30,17 +30,28 @@ expression: IDENTIFIER
 	|expression operator expression
 	|objectaccess
 	|functioncall
+	|addressof
+	|pointeraccess
 	;
 	
 statement: definition
     |functioncall
+	|pointerassignment
     |assignment
     |ifstatement
+    |writestatement
+	|returnstatement
     ;
 
 objectaccess: IDENTIFIER ACCESSOR IDENTIFIER;
 
+pointeraccess: REFERENCE IDENTIFIER;
+
+addressof: AMPERSAND IDENTIFIER;
+
 classdefinition: CLASSID IDENTIFIER LCURLY definition* RCURLY;
+
+pointerassignment: REFERENCE assignment;
 
 assignment: IDENTIFIER EQUAL expression;
 
@@ -56,15 +67,24 @@ objectdefinition: IDENTIFIER IDENTIFIER;
 
 pointerdefinition: type REFERENCE IDENTIFIER
 	|type REFERENCE IDENTIFIER LBRACKET INTEGER RBRACKET
+	|type AMPERSAND IDENTIFIER
 	;
 
-parametersdefinition: type IDENTIFIER
-    |type IDENTIFIER ',' parametersdefinition
+parametersdefinition: pointerdefinition
+    |pointerdefinition ',' parametersdefinition
+    |variabledefinition
+    |variabledefinition ',' parametersdefinition
     ;
 
 functiondefinition: type SIGNATURE parametersdefinition? COLON IDENTIFIER LCURLY statement+ RCURLY;
 
 ifstatement: UNDERSCORE functioncall parameter IF;
+
+writestatement: UNDERSCORE CSTRING WRITE
+    |UNDERSCORE CHAR WRITE
+    |UNDERSCORE expression WRITE
+	|UNDERSCORE charliteral
+    ;
 
 definition: classdefinition
     |objectdefinition
@@ -72,6 +92,14 @@ definition: classdefinition
     |functiondefinition
     |pointerdefinition
     ;
+    
+returnstatement: RETURN expression
+    |RETURN
+    ;
+
+charliteral: SINGLEQUOTE NEWLINE SINGLEQUOTE
+	|CHAR
+	;
 
 UNDERSCORE: '_';
 PLUS: '+';
@@ -93,8 +121,9 @@ FLOAT:[0-9]+[.][0-9]+;
 INTEGER: [0-9]+;
 BOOLEAN: 'true' | 'false';
 CHAR: ['][a-zA-Z]['];
+CSTRING: ['][a-zA-Z]+['];
 
-NEWLINE: '\n';
+NEWLINE: '\\n';
 WHITESPACE: [ \t\n\r]+ -> skip;
 LBRACKET: '[';
 RBRACKET: ']';
