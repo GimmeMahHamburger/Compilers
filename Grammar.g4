@@ -15,7 +15,7 @@ operation:PLUS
 	|MODULO
 	|LESSTHAN
 	|GREATERTHAN
-	|EQUAL
+	|EQUAL EQUAL
 	|OR OR
 	|AMPERSAND AMPERSAND
 	;
@@ -25,7 +25,21 @@ expression: IDENTIFIER
 	|FLOAT
 	|INTEGER
 	|BOOLEAN
+	|expression operator expression
+	|objectaccess
+	;
 
+objectaccess: IDENTIFIER ACESSOR IDENTIFIER;
+
+parameter: UNDERSCORE expression;
+
+functioncall: parameter* IDENTIFIER
+	|parameter* objectaccess;
+
+variabledefinition: type IDENTIFIER
+	|type IDENTIFIER EQUALS expression;
+
+objectdefinition: IDENTIFIER IDENTIFIER;
 
 
 UNDERSCORE: '_';
@@ -41,8 +55,8 @@ EQUAL: '=';
 OR: '|';
 AMPERSAND: '&';
 NOT: '!';
-MULTICOMMENT: '~~~';
-COMMENT: '~';
+MULTICOMMENT: [~][~][~].*[~][~][~] -> skip;
+COMMENT: [~].*[\n] -> skip;
 REFERENCE: '$';
 FLOAT:[0-9]+[.][0-9]+;
 INTEGER: [0-9]+;
