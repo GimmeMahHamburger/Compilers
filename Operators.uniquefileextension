@@ -11,7 +11,7 @@ bool greater = l<i ~true
 bool less = k>j ~false
 bool equal = greater==less ~false
 equal = equal == !less ~true
-bool composite = less && ~equal || equal && greater ~ true
+bool composite = less && !equal || equal && greater ~ true
 
 
 _composite write
