@@ -28,6 +28,7 @@ expression: IDENTIFIER
 	|INTEGER
 	|BOOLEAN
 	|expression operator expression
+	|NOT expression
 	|objectaccess
 	|functioncall
 	|addressof
@@ -147,4 +148,4 @@ VOID: 'void';
 FLOATID: 'float';
 BOOLEANID: 'bool';
 
-IDENTIFIER: [a-zA-Z][a-zA-Z0-9]+;
+IDENTIFIER: [a-zA-Z][a-zA-Z0-9]*;
