@@ -1,14 +1,15 @@
 grammar PascalIINoRelation;
 
-type:CLASSID
-	|CHARACTERID
+program: statement+;
+
+type:CHARACTERID
 	|INTID
 	|VOID
 	|FLOATID
 	|BOOLEANID
 	;
 
-operation:PLUS
+operator:PLUS
 	|MINUS
 	|DIVIDE
 	|STAR
@@ -19,7 +20,8 @@ operation:PLUS
 	|OR OR
 	|AMPERSAND AMPERSAND
 	;
-arrayaccess: IDENTIFIER LEFTBRACKET expression RIGHTBRACKET;
+	
+arrayaccess: IDENTIFIER LBRACKET expression RBRACKET;
 
 expression: IDENTIFIER
 	|FLOAT
@@ -27,9 +29,20 @@ expression: IDENTIFIER
 	|BOOLEAN
 	|expression operator expression
 	|objectaccess
+	|functioncall
 	;
+	
+statement: definition
+    |functioncall
+    |assignment
+    |ifstatement
+    ;
 
-objectaccess: IDENTIFIER ACESSOR IDENTIFIER;
+objectaccess: IDENTIFIER ACCESSOR IDENTIFIER;
+
+classdefinition: CLASSID IDENTIFIER LCURLY definition* RCURLY;
+
+assignment: IDENTIFIER EQUAL expression;
 
 parameter: UNDERSCORE expression;
 
@@ -37,10 +50,28 @@ functioncall: parameter* IDENTIFIER
 	|parameter* objectaccess;
 
 variabledefinition: type IDENTIFIER
-	|type IDENTIFIER EQUALS expression;
+	|type IDENTIFIER EQUAL expression;
 
 objectdefinition: IDENTIFIER IDENTIFIER;
 
+pointerdefinition: type REFERENCE IDENTIFIER
+	|type REFERENCE IDENTIFIER LBRACKET INTEGER RBRACKET
+	;
+
+parametersdefinition: type IDENTIFIER
+    |type IDENTIFIER ',' parametersdefinition
+    ;
+
+functiondefinition: type SIGNATURE parametersdefinition? COLON IDENTIFIER LCURLY statement+ RCURLY;
+
+ifstatement: UNDERSCORE functioncall parameter IF;
+
+definition: classdefinition
+    |objectdefinition
+    |variabledefinition
+    |functiondefinition
+    |pointerdefinition
+    ;
 
 UNDERSCORE: '_';
 PLUS: '+';
@@ -55,16 +86,16 @@ EQUAL: '=';
 OR: '|';
 AMPERSAND: '&';
 NOT: '!';
-MULTICOMMENT: [~][~][~].*[~][~][~] -> skip;
-COMMENT: [~].*[\n] -> skip;
+MULTICOMMENT: [~][~][~].*?[~][~][~] -> skip;
+COMMENT: [~].*?[\n] -> skip;
 REFERENCE: '$';
 FLOAT:[0-9]+[.][0-9]+;
 INTEGER: [0-9]+;
-BOOLEAN: true | false;
+BOOLEAN: 'true' | 'false';
 CHAR: ['][a-zA-Z]['];
-IDENTIFIER: [a-zA-Z_][a-zA-Z_0-9]+;
+
 NEWLINE: '\n';
-WHITESPACE: '[\t\n\r]' -> skip;
+WHITESPACE: [ \t\n\r]+ -> skip;
 LBRACKET: '[';
 RBRACKET: ']';
 LCURLY: '{';
@@ -86,3 +117,5 @@ INTID: 'int';
 VOID: 'void';
 FLOATID: 'float';
 BOOLEANID: 'bool';
+
+IDENTIFIER: [a-zA-Z][a-zA-Z0-9]+;
