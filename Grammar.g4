@@ -134,7 +134,7 @@ FLOAT:[0-9]+[.][0-9]+;
 INTEGER: [0-9]+;
 BOOLEAN: 'true' | 'false';
 CHAR: ['][a-zA-Z]['];
-CSTRING: ['][a-zA-Z]+['];
+CSTRING: ['][a-zA-Z ]+['];
 
 NEWLINE: '\\n';
 WHITESPACE: [ \t\n\r]+ -> skip;
