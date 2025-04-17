@@ -40,6 +40,7 @@ expression: IDENTIFIER
 	|addressof
 	|pointeraccess
 	|singleoperator expression
+	|arrayaccess
 	;
 	
 statement: definition
