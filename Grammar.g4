@@ -49,6 +49,7 @@ statement: definition
     |ifstatement
     |writestatement
 	|returnstatement
+	|forstatement
     ;
 
 objectaccess: IDENTIFIER ACCESSOR IDENTIFIER;
@@ -92,6 +93,10 @@ parametersdefinition: pointerdefinition
 functiondefinition: type SIGNATURE parametersdefinition? COLON IDENTIFIER LCURLY statement+ RCURLY;
 
 ifstatement: UNDERSCORE functioncall parameter IF;
+
+forstatement: UNDERSCORE variabledefinition UNDERSCORE functioncall UNDERSCORE expression UNDERSCORE expression FOR
+	|UNDERSCORE IDENTIFIER UNDERSCORE functioncall UNDERSCORE expression UNDERSCORE expression FOR
+	;
 
 writestatement: UNDERSCORE CSTRING WRITE
     |UNDERSCORE CHAR WRITE
