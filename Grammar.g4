@@ -20,6 +20,10 @@ operator:PLUS
 	|OR OR
 	|AMPERSAND AMPERSAND
 	;
+
+singleoperator: MINUS
+	|NOT
+	;
 	
 arrayaccess: IDENTIFIER LBRACKET expression RBRACKET;
 
@@ -27,12 +31,15 @@ expression: IDENTIFIER
 	|FLOAT
 	|INTEGER
 	|BOOLEAN
+	|CHAR
+	|CSTRING
 	|expression operator expression
 	|NOT expression
 	|objectaccess
 	|functioncall
 	|addressof
 	|pointeraccess
+	|singleoperator expression
 	;
 	
 statement: definition
@@ -54,7 +61,9 @@ classdefinition: CLASSID IDENTIFIER LCURLY definition* RCURLY;
 
 pointerassignment: REFERENCE assignment;
 
-assignment: IDENTIFIER EQUAL expression;
+assignment: IDENTIFIER EQUAL expression
+    |objectaccess EQUAL expression
+    ;
 
 parameter: UNDERSCORE expression;
 
@@ -69,6 +78,9 @@ objectdefinition: IDENTIFIER IDENTIFIER;
 pointerdefinition: type REFERENCE IDENTIFIER
 	|type REFERENCE IDENTIFIER LBRACKET INTEGER RBRACKET
 	|type AMPERSAND IDENTIFIER
+	|type REFERENCE IDENTIFIER EQUAL CSTRING
+	|IDENTIFIER REFERENCE IDENTIFIER
+	|IDENTIFIER REFERENCE IDENTIFIER LBRACKET INTEGER RBRACKET
 	;
 
 parametersdefinition: pointerdefinition
@@ -84,7 +96,7 @@ ifstatement: UNDERSCORE functioncall parameter IF;
 writestatement: UNDERSCORE CSTRING WRITE
     |UNDERSCORE CHAR WRITE
     |UNDERSCORE expression WRITE
-	|UNDERSCORE charliteral
+	|UNDERSCORE charliteral WRITE
     ;
 
 definition: classdefinition
