@@ -56,7 +56,7 @@ Not conflict with any reserved or predefined identifiers.
 ## Assignment-mandated extra features
 
 ### Reserved words
-for: formatted as _**reference to function** _**reference to counter** _**reference to condition** _**increment** for
+for: formatted as _**reference to counter** _**reference to function** _**reference to condition** _**increment** for
 
 Each iteration: "function" is called, "counter + increment" is called, then if "condition" is true, retry
 
