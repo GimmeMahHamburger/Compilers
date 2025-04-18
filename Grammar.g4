@@ -32,7 +32,7 @@ expression: IDENTIFIER
 	|INTEGER
 	|BOOLEAN
 	|CHAR
-	|CSTRING
+	|cstring
 	|expression operator expression
 	|NOT expression
 	|objectaccess
@@ -128,7 +128,7 @@ charliteral: SINGLEQUOTE NEWLINE SINGLEQUOTE
 	|CHAR
 	;
 	
-cstring: SINGLEQUOTE .*? SINGLEQUOTE;
+cstring: SINGLEQUOTE ((~'\'')*?) SINGLEQUOTE;
 
 UNDERSCORE: '_';
 PLUS: '+';
