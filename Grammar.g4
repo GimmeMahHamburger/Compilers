@@ -51,6 +51,7 @@ statement: definition
     |writestatement
 	|returnstatement
 	|forstatement
+	|readstatement
     ;
 
 objectaccess: IDENTIFIER ACCESSOR IDENTIFIER;
@@ -80,7 +81,7 @@ objectdefinition: IDENTIFIER IDENTIFIER;
 pointerdefinition: type REFERENCE IDENTIFIER
 	|type REFERENCE IDENTIFIER LBRACKET INTEGER RBRACKET
 	|type AMPERSAND IDENTIFIER
-	|type REFERENCE IDENTIFIER EQUAL CSTRING
+	|type REFERENCE IDENTIFIER EQUAL cstring
 	|IDENTIFIER REFERENCE IDENTIFIER
 	|IDENTIFIER REFERENCE IDENTIFIER LBRACKET INTEGER RBRACKET
 	;
@@ -104,6 +105,10 @@ writestatement: UNDERSCORE CSTRING WRITE
     |UNDERSCORE expression WRITE
 	|UNDERSCORE charliteral WRITE
     ;
+    
+readstatement: UNDERSCORE IDENTIFIER UNDERSCORE expression READ
+	|UNDERSCORE addressof UNDERSCORE expression READ
+	;
 
 definition: classdefinition
     |objectdefinition
@@ -119,6 +124,8 @@ returnstatement: RETURN expression
 charliteral: SINGLEQUOTE NEWLINE SINGLEQUOTE
 	|CHAR
 	;
+	
+cstring: SINGLEQUOTE .*? SINGLEQUOTE;
 
 UNDERSCORE: '_';
 PLUS: '+';
@@ -140,7 +147,7 @@ FLOAT:[0-9]+[.][0-9]+;
 INTEGER: [0-9]+;
 BOOLEAN: 'true' | 'false';
 CHAR: ['][a-zA-Z]['];
-CSTRING: ['][a-zA-Z ]+['];
+CSTRING: ['][.]*['];
 
 NEWLINE: '\\n';
 WHITESPACE: [ \t\n\r]+ -> skip;
