@@ -32,6 +32,7 @@ expression: IDENTIFIER
 	|INTEGER
 	|BOOLEAN
 	|CHAR
+	|VOID
 	|cstring
 	|expression operator expression
 	|NOT expression
