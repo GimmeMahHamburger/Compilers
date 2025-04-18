@@ -42,17 +42,17 @@ expression: IDENTIFIER
 	|singleoperator expression
 	|arrayaccess
 	;
-	
+
 statement: definition
-    |functioncall
+	|functioncall
 	|pointerassignment
-    |assignment
-    |ifstatement
-    |writestatement
+	|assignment
+	|ifstatement
+	|writestatement
 	|returnstatement
 	|forstatement
 	|readstatement
-    ;
+	;
 
 objectaccess: IDENTIFIER ACCESSOR IDENTIFIER;
 
@@ -62,11 +62,13 @@ addressof: AMPERSAND IDENTIFIER;
 
 classdefinition: CLASSID IDENTIFIER LCURLY definition* RCURLY;
 
-pointerassignment: REFERENCE assignment;
+pointerassignment: REFERENCE assignment
+	|arrayaccess EQUAL expression
+	;
 
 assignment: IDENTIFIER EQUAL expression
-    |objectaccess EQUAL expression
-    ;
+	|objectaccess EQUAL expression
+	;
 
 parameter: UNDERSCORE expression;
 
@@ -84,13 +86,14 @@ pointerdefinition: type REFERENCE IDENTIFIER
 	|type REFERENCE IDENTIFIER EQUAL cstring
 	|IDENTIFIER REFERENCE IDENTIFIER
 	|IDENTIFIER REFERENCE IDENTIFIER LBRACKET INTEGER RBRACKET
+	|type REFERENCE IDENTIFIER EQUAL LCURLY expression? (COMMA expression)* RCURLY
 	;
 
 parametersdefinition: pointerdefinition
-    |pointerdefinition ',' parametersdefinition
-    |variabledefinition
-    |variabledefinition ',' parametersdefinition
-    ;
+	|pointerdefinition ',' parametersdefinition
+	|variabledefinition
+	|variabledefinition ',' parametersdefinition
+	;
 
 functiondefinition: type SIGNATURE parametersdefinition? COLON IDENTIFIER LCURLY statement+ RCURLY;
 
@@ -101,25 +104,25 @@ forstatement: UNDERSCORE variabledefinition UNDERSCORE functioncall UNDERSCORE e
 	;
 
 writestatement: UNDERSCORE CSTRING WRITE
-    |UNDERSCORE CHAR WRITE
-    |UNDERSCORE expression WRITE
+	|UNDERSCORE CHAR WRITE
+	|UNDERSCORE expression WRITE
 	|UNDERSCORE charliteral WRITE
-    ;
+	;
     
 readstatement: UNDERSCORE IDENTIFIER UNDERSCORE expression READ
 	|UNDERSCORE addressof UNDERSCORE expression READ
 	;
 
 definition: classdefinition
-    |objectdefinition
-    |variabledefinition
-    |functiondefinition
-    |pointerdefinition
-    ;
+	|objectdefinition
+	|variabledefinition
+	|functiondefinition
+	|pointerdefinition
+	;
     
 returnstatement: RETURN expression
-    |RETURN
-    ;
+	|RETURN
+	;
 
 charliteral: SINGLEQUOTE NEWLINE SINGLEQUOTE
 	|CHAR
@@ -160,6 +163,7 @@ ESCAPE: '\\';
 COLON: ':';
 SINGLEQUOTE: '\'';
 DOUBLEQUOTE: '"';
+COMMA: ',';
 
 FOR: 'for';
 WRITE: 'write';
