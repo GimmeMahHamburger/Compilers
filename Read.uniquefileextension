@@ -2,7 +2,7 @@
 
 int maxSize=30
 
-char $ input[maxSize+1]
+char $ input[30]
 char $ msg = 'hello. plz write a thingy. no longer than thirty characters plz.'
 
 _msg write
