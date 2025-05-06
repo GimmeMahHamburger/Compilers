@@ -1,0 +1,30 @@
+~Hello World
+~I'm stuck for ideas on what to demonstrate next so I figured a simple Hello World should be fine
+
+class HalloWarld{
+	char $ one = 4
+	char $ two = 5
+}
+
+void <- :PseudoMain{
+	HalloWarld oi
+	_oi.one write
+	_'\n' write
+	_oi.two write
+	_'\n' write
+
+	oi.one=6.4 ~technically unsafe since only six chars are allocated for 'one' 
+	oi.two=89.99 ~same but both are okay in this speciiiific instance
+	_oi.one write
+	_'\n' write
+	_oi.two write
+	_'\n' write
+}
+
+PseudoMain
+~~~expected output
+hello
+world
+no
+way
+~~~
