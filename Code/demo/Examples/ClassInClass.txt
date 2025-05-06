@@ -1,0 +1,29 @@
+~Classes in classes
+~no, not like that
+
+class Child{
+	int age
+	double toeLength
+	char name ~I know, only like a hundred names possible. The parent doesn't get one at all
+}
+
+class Parent{
+	Child $ baby[2]
+	int age
+	double fingerLength
+}
+
+Parent guardian
+Child older
+Child younger
+older.age=4
+older.toeLength=7
+younger.age=-1
+younger.toeLength=6 ~im just naming random stuff. dont mind me
+guardian.baby[0]=younger
+guardian.baby[1]=older
+_Parent.baby[0].toeLength write
+
+~~~expected output
+6
+~~~

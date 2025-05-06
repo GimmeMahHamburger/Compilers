@@ -1,0 +1,1480 @@
+﻿  ANTLRErrorListener.cpp
+  ANTLRErrorStrategy.cpp
+  ANTLRFileStream.cpp
+  ANTLRInputStream.cpp
+  ActionTransition.cpp
+  AmbiguityInfo.cpp
+  ArrayPredictionContext.cpp
+  ATN.cpp
+  ATNConfig.cpp
+  ATNConfigSet.cpp
+  ATNDeserializationOptions.cpp
+  ATNDeserializer.cpp
+  ATNSimulator.cpp
+  ATNState.cpp
+  AtomTransition.cpp
+  ContextSensitivityInfo.cpp
+  DecisionEventInfo.cpp
+  DecisionInfo.cpp
+  DecisionState.cpp
+  EpsilonTransition.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/ANTLRErrorListener.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/DecisionState.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/ArrayPredictionContext.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/ATNDeserializationOptions.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/ANTLRErrorListener.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/ANTLRInputStream.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/ArrayPredictionContext.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/EpsilonTransition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/ActionTransition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/DecisionState.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/ATNConfig.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/ATNDeserializationOptions.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/ATNConfigSet.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/ATNDeserializer.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/ATN.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/AtomTransition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/ATNState.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/ATNSimulator.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/ANTLRInputStream.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/ActionTransition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/ATNConfig.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/EpsilonTransition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/ATNConfigSet.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/ATN.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/ATNDeserializer.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/AtomTransition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/ATNState.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/ATNSimulator.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  ErrorInfo.cpp
+  LexerAction.cpp
+  LexerActionExecutor.cpp
+  LexerATNConfig.cpp
+  LexerATNSimulator.cpp
+  LexerChannelAction.cpp
+  LexerCustomAction.cpp
+  LexerIndexedCustomAction.cpp
+  LexerModeAction.cpp
+  LexerMoreAction.cpp
+  LexerPopModeAction.cpp
+  LexerPushModeAction.cpp
+  LexerSkipAction.cpp
+  LexerTypeAction.cpp
+  LL1Analyzer.cpp
+  LookaheadEventInfo.cpp
+  NotSetTransition.cpp
+  OrderedATNConfigSet.cpp
+  ParseInfo.cpp
+  ParserATNSimulator.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/LexerIndexedCustomAction.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/LexerIndexedCustomAction.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/LexerChannelAction.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/LexerChannelAction.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/LexerPopModeAction.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/LexerPopModeAction.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/LexerSkipAction.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/LexerATNConfig.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/LexerSkipAction.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/LexerATNSimulator.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/ErrorInfo.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/LexerCustomAction.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/ErrorInfo.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/LexerATNConfig.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/LexerATNSimulator.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/LexerPushModeAction.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/LexerCustomAction.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/LexerPushModeAction.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/LexerModeAction.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/LL1Analyzer.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/LexerTypeAction.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/LL1Analyzer.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/LexerModeAction.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/LexerTypeAction.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/LexerMoreAction.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/LexerMoreAction.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/NotSetTransition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/NotSetTransition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  PrecedencePredicateTransition.cpp
+  PredicateEvalInfo.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/ParseInfo.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/OrderedATNConfigSet.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/ParseInfo.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/OrderedATNConfigSet.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  PredicateTransition.cpp
+  PredictionContext.cpp
+  PredictionContextCache.cpp
+  PredictionContextMergeCache.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/ParserATNSimulator.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+  PredictionMode.cpp
+  ProfilingATNSimulator.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/ParserATNSimulator.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  RangeTransition.cpp
+  RuleTransition.cpp
+  SemanticContext.cpp
+  SetTransition.cpp
+  SingletonPredictionContext.cpp
+  StarLoopbackState.cpp
+  Transition.cpp
+  WildcardTransition.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/PredicateEvalInfo.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+  BailErrorStrategy.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/PredicateEvalInfo.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/PrecedencePredicateTransition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/PrecedencePredicateTransition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/PredictionMode.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/PredicateTransition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/PredictionMode.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/PredicateTransition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/PredictionContext.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/PredictionContextCache.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/PredictionContext.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/PredictionContextMergeCache.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/PredictionContextCache.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/PredictionContextMergeCache.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/ProfilingATNSimulator.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+  BaseErrorListener.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/ProfilingATNSimulator.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/SemanticContext.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/SemanticContext.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/RangeTransition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/SingletonPredictionContext.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/RangeTransition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/SingletonPredictionContext.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/SetTransition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/RuleTransition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/SetTransition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/RuleTransition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  BufferedTokenStream.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/StarLoopbackState.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/StarLoopbackState.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  CharStream.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/Transition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/Transition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  CommonToken.cpp
+  CommonTokenFactory.cpp
+  CommonTokenStream.cpp
+  ConsoleErrorListener.cpp
+  DefaultErrorStrategy.cpp
+  DFA.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/BailErrorStrategy.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/BailErrorStrategy.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/atn/WildcardTransition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+  DFASerializer.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/atn/WildcardTransition.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  DFAState.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/BaseErrorListener.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/BaseErrorListener.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  LexerDFASerializer.cpp
+  DiagnosticErrorListener.cpp
+  Exceptions.cpp
+  FailedPredicateException.cpp
+  InputMismatchException.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/BufferedTokenStream.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/BufferedTokenStream.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  Synchronization.cpp
+  InterpreterRuleContext.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/CommonToken.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/CommonToken.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  IntStream.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/DefaultErrorStrategy.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/DefaultErrorStrategy.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  Lexer.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/ConsoleErrorListener.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/ConsoleErrorListener.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  LexerInterpreter.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/dfa/DFA.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/dfa/DFA.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  LexerNoViableAltException.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/dfa/DFASerializer.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/dfa/DFASerializer.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/dfa/DFAState.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/dfa/DFAState.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  ListTokenSource.cpp
+  InterpreterDataReader.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/FailedPredicateException.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/FailedPredicateException.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  Interval.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/DiagnosticErrorListener.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/Exceptions.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/InputMismatchException.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/InputMismatchException.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/DiagnosticErrorListener.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  IntervalSet.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/Exceptions.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  MurmurHash.cpp
+  Predicate.cpp
+  NoViableAltException.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/LexerNoViableAltException.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+  Parser.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/LexerNoViableAltException.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/Lexer.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/Lexer.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  ParserInterpreter.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/LexerInterpreter.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/LexerInterpreter.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  ParserRuleContext.cpp
+  ProxyErrorListener.cpp
+  RecognitionException.cpp
+  Recognizer.cpp
+  RuleContext.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/misc/InterpreterDataReader.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/misc/InterpreterDataReader.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  RuleContextWithAltNum.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/misc/IntervalSet.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/misc/IntervalSet.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  RuntimeMetaData.cpp
+  Any.cpp
+  Arrays.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/NoViableAltException.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+  CPPUtils.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/NoViableAltException.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  StringUtils.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/Parser.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/Parser.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  Utf8.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/ParserInterpreter.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/ParserInterpreter.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  Token.cpp
+  TokenSource.cpp
+  TokenStream.cpp
+  TokenStreamRewriter.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/ParserRuleContext.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/ParserRuleContext.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/ProxyErrorListener.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/ProxyErrorListener.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/RuleContext.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/RuleContext.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/Recognizer.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/Recognizer.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/RecognitionException.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/RecognitionException.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  ErrorNodeImpl.cpp
+  IterativeParseTreeWalker.cpp
+  ParseTree.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/support/Arrays.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/support/Arrays.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  ParseTreeListener.cpp
+  ParseTreeVisitor.cpp
+  ParseTreeWalker.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,16): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,16): warning C4244:             _Ty1=uint8_t
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,16): warning C4244:         ]
+  (compiling source file 'src/support/Utf8.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,16):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\support\Utf8.cpp(95,20):
+  	see reference to function template instantiation 'std::pair<uint8_t,uint8_t>::pair<int,const uint8_t&,0>(_Other1 &&,_Other2) noexcept' being compiled
+          with
+          [
+              _Other1=int,
+              _Other2=const uint8_t &
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,54): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,54): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,54): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,54): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,54): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,54): warning C4244:             _Ty2=uint8_t
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,54): warning C4244:         ]
+  (compiling source file 'src/support/Utf8.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(250,54):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\support\Utf8.cpp(95,34):
+  	see reference to function template instantiation 'std::pair<uint8_t,uint8_t>::pair<const uint8_t&,int,0>(_Other1,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=const uint8_t &,
+              _Other2=int
+          ]
+  
+  Chunk.cpp
+  ParseTreeMatch.cpp
+  ParseTreePattern.cpp
+  ParseTreePatternMatcher.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/TokenStreamRewriter.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/TokenStreamRewriter.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  RuleTagToken.cpp
+  TagChunk.cpp
+  TextChunk.cpp
+  TokenTagToken.cpp
+  TerminalNodeImpl.cpp
+  Trees.cpp
+  XPath.cpp
+  XPathElement.cpp
+  XPathLexer.cpp
+  XPathLexerErrorListener.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/tree/pattern/ParseTreeMatch.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/tree/pattern/ParseTreeMatch.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  XPathRuleAnywhereElement.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/tree/pattern/ParseTreePattern.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+  XPathRuleElement.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/tree/pattern/ParseTreePattern.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  XPathTokenAnywhereElement.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/tree/pattern/RuleTagToken.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/tree/pattern/RuleTagToken.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  XPathTokenElement.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/tree/pattern/TagChunk.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/tree/pattern/TagChunk.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  XPathWildcardAnywhereElement.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/tree/pattern/ParseTreePatternMatcher.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/tree/pattern/ParseTreePatternMatcher.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  XPathWildcardElement.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/tree/pattern/TextChunk.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+  UnbufferedCharStream.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/tree/pattern/TextChunk.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  UnbufferedTokenStream.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/tree/Trees.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/tree/Trees.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/tree/xpath/XPath.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/tree/xpath/XPath.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+  Vocabulary.cpp
+  WritableToken.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/tree/xpath/XPathLexer.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/tree/xpath/XPathLexer.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/tree/xpath/XPathLexerErrorListener.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/tree/xpath/XPathLexerErrorListener.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/tree/xpath/XPathRuleAnywhereElement.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/tree/xpath/XPathRuleAnywhereElement.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/tree/xpath/XPathRuleElement.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/tree/xpath/XPathRuleElement.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/tree/xpath/XPathTokenElement.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/tree/xpath/XPathTokenElement.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/tree/xpath/XPathTokenAnywhereElement.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/tree/xpath/XPathTokenAnywhereElement.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/tree/xpath/XPathWildcardAnywhereElement.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/tree/xpath/XPathWildcardAnywhereElement.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/UnbufferedCharStream.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/UnbufferedCharStream.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/tree/xpath/XPathWildcardElement.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/tree/xpath/XPathWildcardElement.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'src/UnbufferedTokenStream.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'src/UnbufferedTokenStream.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Vocabulary.cpp(12,30): warning C4996: 'antlr4::dfa::Vocabulary::EMPTY_VOCABULARY': Use the default constructor of Vocabulary instead.
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\tree\xpath\XPathLexer.cpp(158,48): warning C4100: 'context': unreferenced formal parameter
+     Creating library C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\demo\Windows\bin\vs-2022\x64\Debug DLL\antlr4-runtime.lib and object C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\demo\Windows\bin\vs-2022\x64\Debug DLL\antlr4-runtime.exp
+  antlr4cpp-vs2022.vcxproj -> C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\demo\Windows\bin\vs-2022\x64\Debug DLL\antlr4-runtime.dll

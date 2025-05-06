@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\Windows\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24EC5104-7402-4C76-B66B-27ADBE062D68}|antlr4-cpp-demo\\antlr4-cpp-demo-vs2022.vcxproj|C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\Windows\\antlr4-cpp-demo\\SemanticVisitor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{24EC5104-7402-4C76-B66B-27ADBE062D68}|antlr4-cpp-demo\\antlr4-cpp-demo-vs2022.vcxproj|solutionrelative:antlr4-cpp-demo\\SemanticVisitor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EC5104-7402-4C76-B66B-27ADBE062D68}|antlr4-cpp-demo\\antlr4-cpp-demo-vs2022.vcxproj|C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\Windows\\antlr4-cpp-demo\\PascalSymbolVisitor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{24EC5104-7402-4C76-B66B-27ADBE062D68}|antlr4-cpp-demo\\antlr4-cpp-demo-vs2022.vcxproj|solutionrelative:antlr4-cpp-demo\\PascalSymbolVisitor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EC5104-7402-4C76-B66B-27ADBE062D68}|antlr4-cpp-demo\\antlr4-cpp-demo-vs2022.vcxproj|C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\Windows\\antlr4-cpp-demo\\Table.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{24EC5104-7402-4C76-B66B-27ADBE062D68}|antlr4-cpp-demo\\antlr4-cpp-demo-vs2022.vcxproj|solutionrelative:antlr4-cpp-demo\\Table.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EC5104-7402-4C76-B66B-27ADBE062D68}|antlr4-cpp-demo\\antlr4-cpp-demo-vs2022.vcxproj|C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\Windows\\antlr4-cpp-demo\\Table.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{24EC5104-7402-4C76-B66B-27ADBE062D68}|antlr4-cpp-demo\\antlr4-cpp-demo-vs2022.vcxproj|solutionrelative:antlr4-cpp-demo\\Table.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EC5104-7402-4C76-B66B-27ADBE062D68}|antlr4-cpp-demo\\antlr4-cpp-demo-vs2022.vcxproj|C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\generated\\PascalIINoRelationParserBaseVisitor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EC5104-7402-4C76-B66B-27ADBE062D68}|antlr4-cpp-demo\\antlr4-cpp-demo-vs2022.vcxproj|C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\generated\\PascalIINoRelationParser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EC5104-7402-4C76-B66B-27ADBE062D68}|antlr4-cpp-demo\\antlr4-cpp-demo-vs2022.vcxproj|C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\Windows\\antlr4-cpp-demo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{24EC5104-7402-4C76-B66B-27ADBE062D68}|antlr4-cpp-demo\\antlr4-cpp-demo-vs2022.vcxproj|solutionrelative:antlr4-cpp-demo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EC5104-7402-4C76-B66B-27ADBE062D68}|antlr4-cpp-demo\\antlr4-cpp-demo-vs2022.vcxproj|C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\generated\\PascalIINoRelationParser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EC5104-7402-4C76-B66B-27ADBE062D68}|antlr4-cpp-demo\\antlr4-cpp-demo-vs2022.vcxproj|C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\Windows\\antlr4-cpp-demo\\PascalListener.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{24EC5104-7402-4C76-B66B-27ADBE062D68}|antlr4-cpp-demo\\antlr4-cpp-demo-vs2022.vcxproj|solutionrelative:antlr4-cpp-demo\\PascalListener.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EC5104-7402-4C76-B66B-27ADBE062D68}|antlr4-cpp-demo\\antlr4-cpp-demo-vs2022.vcxproj|C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\generated\\PascalIINoRelationParserBaseListener.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\Windows\\antlr4-cpp-demo\\main.cpp",
+              "RelativeDocumentMoniker": "antlr4-cpp-demo\\main.cpp",
+              "ToolTip": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\Windows\\antlr4-cpp-demo\\main.cpp",
+              "RelativeToolTip": "antlr4-cpp-demo\\main.cpp",
+              "ViewState": "AQIAADoAAAAAAAAAAAAqwEsAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-02T00:12:56.848Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Table.h",
+              "DocumentMoniker": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\Windows\\antlr4-cpp-demo\\Table.h",
+              "RelativeDocumentMoniker": "antlr4-cpp-demo\\Table.h",
+              "ToolTip": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\Windows\\antlr4-cpp-demo\\Table.h",
+              "RelativeToolTip": "antlr4-cpp-demo\\Table.h",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-04T23:22:20.179Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Table.cpp",
+              "DocumentMoniker": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\Windows\\antlr4-cpp-demo\\Table.cpp",
+              "RelativeDocumentMoniker": "antlr4-cpp-demo\\Table.cpp",
+              "ToolTip": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\Windows\\antlr4-cpp-demo\\Table.cpp",
+              "RelativeToolTip": "antlr4-cpp-demo\\Table.cpp",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-05T01:02:41.146Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PascalSymbolVisitor.cpp",
+              "DocumentMoniker": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\Windows\\antlr4-cpp-demo\\PascalSymbolVisitor.cpp",
+              "RelativeDocumentMoniker": "antlr4-cpp-demo\\PascalSymbolVisitor.cpp",
+              "ToolTip": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\Windows\\antlr4-cpp-demo\\PascalSymbolVisitor.cpp",
+              "RelativeToolTip": "antlr4-cpp-demo\\PascalSymbolVisitor.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-06T05:11:04.435Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SemanticVisitor.cpp",
+              "DocumentMoniker": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\Windows\\antlr4-cpp-demo\\SemanticVisitor.cpp",
+              "RelativeDocumentMoniker": "antlr4-cpp-demo\\SemanticVisitor.cpp",
+              "ToolTip": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\Windows\\antlr4-cpp-demo\\SemanticVisitor.cpp",
+              "RelativeToolTip": "antlr4-cpp-demo\\SemanticVisitor.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-06T05:11:30.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PascalIINoRelationParserBaseVisitor.h",
+              "DocumentMoniker": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\generated\\PascalIINoRelationParserBaseVisitor.h",
+              "RelativeDocumentMoniker": "..\\generated\\PascalIINoRelationParserBaseVisitor.h",
+              "ToolTip": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\generated\\PascalIINoRelationParserBaseVisitor.h",
+              "RelativeToolTip": "..\\generated\\PascalIINoRelationParserBaseVisitor.h",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAuwE8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-04T05:41:39.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PascalIINoRelationParser.h",
+              "DocumentMoniker": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\generated\\PascalIINoRelationParser.h",
+              "RelativeDocumentMoniker": "..\\generated\\PascalIINoRelationParser.h",
+              "ToolTip": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\generated\\PascalIINoRelationParser.h",
+              "RelativeToolTip": "..\\generated\\PascalIINoRelationParser.h",
+              "ViewState": "AQIAAKoBAAAAAAAAAAAQwLYBAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-05T00:06:54.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PascalIINoRelationParser.cpp",
+              "DocumentMoniker": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\generated\\PascalIINoRelationParser.cpp",
+              "RelativeDocumentMoniker": "..\\generated\\PascalIINoRelationParser.cpp",
+              "ToolTip": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\generated\\PascalIINoRelationParser.cpp",
+              "RelativeToolTip": "..\\generated\\PascalIINoRelationParser.cpp",
+              "ViewState": "AQIAAKoLAAAAAAAAAAAuwLMLAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-05T00:09:22.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PascalListener.cpp",
+              "DocumentMoniker": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\Windows\\antlr4-cpp-demo\\PascalListener.cpp",
+              "RelativeDocumentMoniker": "antlr4-cpp-demo\\PascalListener.cpp",
+              "ToolTip": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\Windows\\antlr4-cpp-demo\\PascalListener.cpp",
+              "RelativeToolTip": "antlr4-cpp-demo\\PascalListener.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-04T05:52:52.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PascalIINoRelationParserBaseListener.h",
+              "DocumentMoniker": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\generated\\PascalIINoRelationParserBaseListener.h",
+              "RelativeDocumentMoniker": "..\\generated\\PascalIINoRelationParserBaseListener.h",
+              "ToolTip": "C:\\Users\\gimme\\Downloads\\antlr4-cpp-runtime-4.13.2-source\\demo\\generated\\PascalIINoRelationParserBaseListener.h",
+              "RelativeToolTip": "..\\generated\\PascalIINoRelationParserBaseListener.h",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAjwBEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-04T05:39:06.865Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

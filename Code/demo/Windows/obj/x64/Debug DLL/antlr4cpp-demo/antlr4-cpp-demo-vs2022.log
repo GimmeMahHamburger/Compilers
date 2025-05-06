@@ -1,0 +1,51 @@
+﻿  PascalSymbolVisitor.cpp
+  main.cpp
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'PascalSymbolVisitor.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,57): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::RuntimeException'
+  (compiling source file 'main.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(13,26):
+  see declaration of 'antlr4::RuntimeException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'PascalSymbolVisitor.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,52): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'antlr4::IOException'
+  (compiling source file 'main.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\runtime\src\Exceptions.h(73,26):
+  see declaration of 'antlr4::IOException'
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\demo\Windows\antlr4-cpp-demo\PascalSymbolVisitor.cpp(28,47): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\demo\Windows\antlr4-cpp-demo\PascalSymbolVisitor.cpp(46,47): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\demo\Windows\antlr4-cpp-demo\PascalSymbolVisitor.cpp(54,47): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\demo\Windows\antlr4-cpp-demo\PascalSymbolVisitor.cpp(63,47): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\demo\Windows\antlr4-cpp-demo\PascalSymbolVisitor.cpp(72,47): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\demo\Windows\antlr4-cpp-demo\PascalSymbolVisitor.cpp(28,47): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\demo\Windows\antlr4-cpp-demo\PascalSymbolVisitor.cpp(46,47): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\demo\Windows\antlr4-cpp-demo\PascalSymbolVisitor.cpp(54,47): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\demo\Windows\antlr4-cpp-demo\PascalSymbolVisitor.cpp(63,47): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\demo\Windows\antlr4-cpp-demo\PascalSymbolVisitor.cpp(72,47): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+  antlr4-cpp-demo-vs2022.vcxproj -> C:\Users\gimme\Downloads\antlr4-cpp-runtime-4.13.2-source\demo\Windows\bin\vs-2022\x64\Debug DLL\antlr4cpp-demo.exe
