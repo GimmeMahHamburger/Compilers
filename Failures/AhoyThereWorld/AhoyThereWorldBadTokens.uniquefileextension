@@ -1,7 +1,7 @@
 ~Hello World
 ~I'm stuck for ideas on what to demonstrate next so I figured a simple Hello World should be fine
 
-class extraneous HalloWarld{
+clss HalloWarld{
 	char $ oone == 'hello'
 	char $ two = 'world'
 }
@@ -10,7 +10,7 @@ vooid <- :PseudoMain{
 	HalloWorld oi
 	_oi.one write
 	_'\n' write
-	_oi.two write
+	_oi.two wriite
 	_'\n' write
 
 	oi.one='no' ~technically unsafe since only six chars are allocated for 'one' 
