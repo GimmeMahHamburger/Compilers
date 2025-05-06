@@ -1,0 +1,33 @@
+~ Classes and objects and 'structs' oh my
+~ we're not in 'c'-ansas anymore, D:\orothy\
+
+clss TinMan{
+	int legs
+	int arms
+	char $ name[10]
+	bool brain
+	
+}
+class Witch{
+	boouul wicked
+	bool east
+	bool dead
+	void <- bool status :setDead{
+		dead=stafdgdtus
+	}
+	void <- :house{
+		__true setDead _east if	
+	}
+}
+
+TinMan Gregory
+Gregory.brain=false
+Grefdfgory.nfdame='not greg'
+Witch Gertrude
+Gertrude.east=true
+Gertrude.house
+_Gertrude.dead write
+
+~~~expected output
+1
+~~~
